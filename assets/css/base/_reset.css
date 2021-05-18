@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'gotham-bold';
+    src: url(../../fonts/gotham/Gotham-Bold.otf);
+}
+
+@font-face {
+    font-family: 'gotham-medium';
+    src: url(../../fonts/gotham/Gotham-Medium.otf);
+}
+
+@font-face {
+    font-family: 'gotham-regular';
+    src: url(../../fonts/gotham/Gotham-Regular.otf);
+}
+
+@font-face {
+    font-family: 'gotham-book';
+    src: url(../../fonts/gotham/Gotham-Book.otf);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: var(--color-white);
+    text-decoration: none;
+}

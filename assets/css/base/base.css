@@ -1,0 +1,26 @@
+@import url(./_reset.css);
+@import url(./_variables.css);
+
+html {
+    background-color: #000;
+}
+
+body {
+    background-image: url(../../img/bg.svg);
+    background-position: left top;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 1080px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    padding-bottom: 3rem;
+}

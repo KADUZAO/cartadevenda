@@ -1,0 +1,21 @@
+:root {
+    --color-red: #ee0010;
+    --color-white: #fff;
+    --font--family-destaque: 'gotham-bold', sans-serif;
+    --font--family-text-destaque: 'gotham-medium', sans-serif;
+    --font--family-text: 'gotham-book', sans-serif;
+    --font--family-tower: 'gotham-regular', sans-serif;
+    --size--button: 1.2rem;
+}
+
+@media screen and (max-width: 480px) {
+    :root {
+        --size--button: 1rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    :root {
+        --size--button: 0.9rem;
+    }
+}

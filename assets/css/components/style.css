@@ -1,0 +1,82 @@
+.logo {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.logo img{
+    width: 10rem;
+}
+
+.containerfive {
+    width: 90%;
+}
+
+.towertense{
+    display: flex;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.towerlist{
+    height: auto;
+}
+
+.tower{
+    background-color: #ffffff;
+    width: 3px;
+    height: 96%;
+    transform: matrix(1, 0, 0, 1, 26, 9);
+}
+
+.formationcontent{
+    margin-left: 1rem;
+}
+
+.formationslist{
+    display: flex;
+}
+
+.circlelist{
+    display: flex;
+    width: 18px;
+    height: 18px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.circlelist.select{
+    border: 1px solid var(--color-red);
+    border-radius: 180px;
+}
+
+.marblelist{
+    background-color: var(--color-red);
+    width: 8px;
+    height: 8px;
+    border-radius: 180px;
+    margin: auto;
+}
+
+.paddinglist{
+    padding-bottom: 1.8rem;
+}
+
+.textformation{
+    padding-left: 1rem;
+}
+
+.endlist {
+    padding-bottom: 0;
+}
+
+.content__marble {
+    display: grid;
+    grid-template-columns: 21px 82%;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.fa-circle {
+    font-size: 0.8rem;
+    margin-top: 0.25rem;
+    margin-right: 0.2rem;
+}

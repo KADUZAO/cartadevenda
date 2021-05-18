@@ -1,0 +1,45 @@
+.text__center {
+    text-align: center;
+}
+
+.text__left {
+    text-align: left;
+}
+
+.text__red {
+    color: var(--color-red);
+}
+
+.text__bold {
+    font-family: var(--font--family-destaque);
+}
+
+.text__medium {
+    font-family: var(--font--family-text-destaque);
+}
+
+.text__book {
+    font-family: var(--font--family-text);
+}
+
+.text__regular {
+    font-family: var(--font--family-tower);
+}
+
+.card__red-price h2 {
+    font-size: 3.5rem;
+}
+
+.contentFormations p {
+    font-family: var(--font--family-text);
+}
+
+.contentFormations strong {
+    font-family: var(--font--family-tower);
+    font-weight: lighter;
+}
+
+.text__underline {
+    text-decoration: underline;
+    font-weight: lighter;
+}

@@ -1,0 +1,12 @@
+.button__red {
+    display: flex;
+    background-color: var(--color-red);
+    padding: 0.3rem 1rem 0.4rem 1rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+.button__red > a > p {
+    font-size: var(--size--button);
+    font-family: var(--font--family-destaque);
+}

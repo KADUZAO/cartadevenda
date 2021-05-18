@@ -1,0 +1,18 @@
+.card__red {
+    background-color: var(--color-red);
+}
+
+.card__red-timer {
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.5rem;
+}
+
+.card__red-small {
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.3rem;
+}
+
+.card__red-price {
+    padding: 0 3rem 0.4rem 3rem;
+    border-radius: 0.5rem;
+}
